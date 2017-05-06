@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mejustme/learnyounode-program/issues"
   },
-  "homepage": "https://github.com/mejustme/learnyounode-program#readme"
+  "homepage": "https://github.com/mejustme/learnyounode-program#readme",
+  "dependencies": {
+    "async": "^2.4.0"
+  }
 }

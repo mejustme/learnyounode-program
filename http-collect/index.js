@@ -6,7 +6,7 @@ http.get(process.argv[2],function (response) {
         console.error('请求错误，返回状态码为${response.statusCode}');
         response.resume();
         return;
-    };
+    }
 
     var allStr = '';
     response.on('data',function (str) {
